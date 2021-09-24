@@ -1,0 +1,40 @@
+<article>
+	<h2>Dark and Light mode</h2>
+	<button onclick="nwaSelect('html').classList.remove('nwaThemeDark'); nwaSelect('html').classList.remove('nwaThemeLight');">System Mode</button>
+	<button onclick="nwaSelect('html').classList.remove('nwaThemeDark'); nwaSelect('html').classList.add('nwaThemeLight');">Light Mode</button>
+	<button onclick="nwaSelect('html').classList.add('nwaThemeDark');    nwaSelect('html').classList.remove('nwaThemeLight');">Dark Mode</button>
+	<hr>
+	<p>
+		Normal Mode: Get theme mode from browser, Change system theme and see effect.
+    	<br>
+    	Light Mode: Force light mode by add <b>nwaThemeLight</b> to <b>html</b> tag
+    	<br>
+    	Dark Mode: Force dark mode by add <b>nwaThemeDark</b> to <b>html</b> tag
+	</p>
+</article>
+<article>
+	<h2>Color Themes</h2>
+	<button onclick="nwaSelect('html').classList.remove('nwaColorBlackGold'); nwaSelect('html').classList.remove('nwaColorPurpleGreen');">Default Color</button>
+	<button onclick="nwaSelect('html').classList.add('nwaColorBlackGold'); 	nwaSelect('html').classList.remove('nwaColorPurpleGreen');">BlackGold Color</button>
+	<button onclick="nwaSelect('html').classList.remove('nwaColorBlackGold'); nwaSelect('html').classList.add('nwaColorPurpleGreen');">PurpleGreen Color</button>
+	<hr>
+	<p>
+    	Normal Mode: Standard web colors
+    	<br>
+    	See BlackGold color by add <b>nwaColorBlackGold</b> to <b>html</b> tag
+    	<br>
+    	See PurpleGreen color by add <b>nwaColorPurpleGreen</b> to <b>html</b> tag
+	</p>
+</article>
+<article>
+	<h2>Colors</h2>
+	<hr>
+	<section class="nwaBox6" style="background: var(--primaryColor); 			color: var(--onPrimaryColor);"		>background: var(--primaryColor);<br>color: var(--onPrimaryColor);</section>
+	<section class="nwaBox6" style="background: var(--primaryVariantColor); 	color: var(--onPrimaryColor);"		>background: var(--primaryVariantColor);<br>color: var(--onPrimaryColor);</section>
+	<section class="nwaBox6" style="background: var(--secondaryColor); 			color: var(--onSecondaryColor);"	>background: var(--secondaryColor);<br>color: var(--onSecondaryColor);</section>
+	<section class="nwaBox6" style="background: var(--secondaryVariantColor); 	color: var(--onSecondaryColor);"	>background: var(--secondaryVariantColor);<br>color: var(--onSecondaryColor);</section>
+	<section class="nwaBox6" style="background: var(--backgroundColor); 		color: var(--onBackgroundColor);"	>background: var(--backgroundColor);<br>color: var(--onBackgroundColor);</section>
+	<section class="nwaBox6" style="background: var(--headerColor); 			color: var(--onHeaderColor);"		>background: var(--headerColor);<br>color: var(--onHeaderColor);</section>
+	<section class="nwaBox6" style="background: var(--surfaceColor); 			color: var(--onSurfaceColor);"		>background: var(--surfaceColor);<br>color: var(--onSurfaceColor);</section>
+	<section class="nwaBox6" style="background: var(--errorColor); 				color: var(--onErrorColor);"		>background: var(--errorColor);<br>color: var(--onErrorColor);</section>
+</article>
